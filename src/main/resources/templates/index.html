@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>PDP - Sell Art Blockchain</title>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="" name="author">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link rel="shortcut icon" href="images/Black White Simple Bold Elegant Feminine Fashion Boutique Logo.png" type="image/x-icon">
+
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Noto+Serif:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+            rel="stylesheet">
+
+
+    <link rel="stylesheet" th:href="@{/css/normalize.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/css/icomoon.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/css/vendor.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/css/style.css}" type="text/css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#header" tabindex="0">
+
+<div id="header-wrap">
+
+    <div class="top-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="social-links">
+                        <ul>
+                            <li>
+                                <a><img alt="" src="images/fb.png"></a>
+                            </li>
+                            <li>
+                                <a><img alt="" src="images/twitter.png"></a>
+                            </li>
+                            <li>
+                                <a><img alt="" src="images/youtube.png"></a>
+                            </li>
+                        </ul>
+                    </div><!--social-links-->
+                </div>
+                <div class="col-md-6">
+                    <div class="right-element">
+                        <a class="user-account for-buy"><img alt="" src="images/profile-user.png"></a>
+                        <a class="cart for-buy"><span><img alt="" src="images/shopping-bag.png">(0)</span></a>
+
+                        <div class="action-menu">
+
+                            <div class="search-bar">
+                                <a class="search-button search-toggle" data-selector="#header-wrap">
+                                    <img alt="" src="images/search.png">
+                                </a>
+                                <form class="search-box" method="get" role="search">
+                                    <input class="search-field text search-input" placeholder="Search"
+                                           type="search">
+                                </form>
+                            </div>
+                        </div>
+
+                    </div><!--top-right-->
+                </div>
+
+            </div>
+        </div>
+    </div><!--top-content-->
+
+    <header id="header">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-2">
+                    <div class="main-logo">
+                        <a href="index.html"><img alt="logo" src="images/main-logo.png"></a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-10">
+
+                    <nav id="navbar">
+                        <div class="main-menu stellarnav">
+                            <ul class="menu-list">
+                                <li class="menu-item active"><a href="#home">Trang chủ</a></li>
+                                <li class="menu-item"><a class="nav-link" href="#featured-books">Nổi bật</a></li>
+                                <li class="menu-item"><a class="nav-link" href="#popular-books">Phổ biến</a></li>
+                                <li class="menu-item"><a class="nav-link" href="#special-offer">Ưu đãi</a></li>
+                            </ul>
+                            <div class="hamburger">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </div>
+                        </div>
+                    </nav>
+
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+</div><!--header-wrap-->
+
+<section id="billboard">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <button class="prev slick-arrow">
+                    <i class="icon icon-arrow-left"></i>
+                </button>
+
+                <div class="main-slider pattern-overlay">
+                    <div class="slider-item">
+                        <div class="banner-content">
+                            <h2 class="banner-title">Cuộc sống hoang dã</h2>
+                            <p>Một cuốn Tranh hay và thơ mộng.</p>
+                            <div class="btn-wrap">
+                                <a class="btn btn-outline-accent btn-accent-arrow" href="#">Đọc thêm<i
+                                        class="icon icon-ns-arrow-right"></i></a>
+                            </div>
+                        </div><!--banner-content-->
+                        <img alt="banner" class="banner-image" src="images/main-banner1.jpg">
+                    </div><!--slider-item-->
+
+                    <div class="slider-item">
+                        <div class="banner-content">
+                            <h2 class="banner-title">Chim sẻ hạnh phúc</h2>
+                            <p>Một cuốn Tranh hay và thơ mộng.</p>
+                            <div class="btn-wrap">
+                                <a class="btn btn-outline-accent btn-accent-arrow" href="#">Đọc thêm<i
+                                        class="icon icon-ns-arrow-right"></i></a>
+                            </div>
+                        </div><!--banner-content-->
+                        <img alt="banner" class="banner-image" src="images/main-banner2.jpg">
+                    </div><!--slider-item-->
+
+                </div><!--slider-->
+
+                <button class="next slick-arrow">
+                    <i class="icon icon-arrow-right"></i>
+                </button>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section data-aos="fade-up" id="client-holder">
+    <div class="container">
+        <div class="row">
+            <div class="inner-content">
+                <div class="logo-wrap">
+                    <div class="grid">
+                        <a><img alt="client" src="images/client-image1.png"></a>
+                        <a><img alt="client" src="images/client-image2.png"></a>
+                        <a><img alt="client" src="images/client-image3.png"></a>
+                        <a><img alt="client" src="images/client-image4.png"></a>
+                        <a><img alt="client" src="images/client-image5.png"></a>
+                    </div>
+                </div><!--image-holder-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5 my-5" id="featured-books">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="section-header align-center">
+                    <div class="title">
+                        <span>Một số sản phẩm chất lượng</span>
+                    </div>
+                    <h2 class="section-title">Tranh nổi bật</h2>
+                </div>
+
+                <div class="product-list" data-aos="fade-up">
+                    <div class="row">
+
+                        <div class="col-md-3">
+                            <div class="product-item">
+                                <figure class="product-style">
+                                    <img alt="Tranh" class="product-item" src="images/product-item1.jpg">
+                                    <button class="add-to-cart" data-product-tile="add-to-cart" type="button">Thêm
+                                        vào
+                                        giỏ hàng
+                                    </button>
+                                </figure>
+                                <figcaption>
+                                    <h3>Cách đơn giản để sống tốt</h3>
+                                    <span>Armor Ramsey</span>
+                                    <div class="item-price">$ 40.00</div>
+                                </figcaption>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="product-item">
+                                <figure class="product-style">
+                                    <img alt="Tranh" class="product-item" src="images/product-item2.jpg">
+                                    <button class="add-to-cart" data-product-tile="add-to-cart" type="button">Thêm
+                                        vào
+                                        giỏ hàng
+                                    </button>
+                                </figure>
+                                <figcaption>
+                                    <h3>Cuộc hành trình tuyệt vời trên sa mạc</h3>
+                                    <span>Sanchit Howdy</span>
+                                    <div class="item-price">$ 38.00</div>
+                                </figcaption>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="product-item">
+                                <figure class="product-style">
+                                    <img alt="Tranh" class="product-item" src="images/product-item3.jpg">
+                                    <button class="add-to-cart" data-product-tile="add-to-cart" type="button">Thêm
+                                        vào
+                                        giỏ hàng
+                                    </button>
+                                </figure>
+                                <figcaption>
+                                    <h3>Vẻ đẹp của quý cô Scarlett</h3>
+                                    <span>Arthur Doyle</span>
+                                    <div class="item-price">$ 45.00</div>
+                                </figcaption>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="product-item">
+                                <figure class="product-style">
+                                    <img alt="Tranh" class="product-item" src="images/product-item4.jpg">
+                                    <button class="add-to-cart" data-product-tile="add-to-cart" type="button">Thêm
+                                        vào
+                                        giỏ hàng
+                                    </button>
+                                </figure>
+                                <figcaption>
+                                    <h3>Ngày xửa ngày xưa</h3>
+                                    <span>Klien Marry</span>
+                                    <div class="item-price">$ 35.00</div>
+                                </figcaption>
+                            </div>
+                        </div>
+
+                    </div><!--ft-books-slider-->
+                </div><!--grid-->
+
+            </div><!--inner-content-->
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="btn-wrap align-right">
+                    <a class="btn-accent-arrow">Xem tất cả sản phẩm <i class="icon icon-ns-arrow-right"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="leaf-pattern-overlay" id="best-selling">
+    <div class="corner-pattern-overlay"></div>
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-md-8">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <figure class="products-thumb">
+                            <img alt="Tranh" class="single-image" src="images/single-image.jpg">
+                        </figure>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="product-entry">
+                            <h2 class="section-title divider">Tranh Bán Chạy Nhất</h2>
+
+                            <div class="products-content">
+                                <div class="author-name">Tác giả: Timbur Hood</div>
+                                <h3 class="item-title">Chim sẽ hạnh phúc</h3>
+                                <p>Một cuốn Tranh hay và thơ mộng.</p>
+                                <div class="item-price">$ 45.00</div>
+                                <div class="btn-wrap">
+                                    <a class="btn-accent-arrow">Mua ngay <i
+                                            class="icon icon-ns-arrow-right"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- / row -->
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="bookshelf py-5 my-5" id="popular-books">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="section-header align-center">
+                    <div class="title">
+                        <span>Những sản phẩm chất lượng</span>
+                    </div>
+                    <h2 class="section-title">Tranh phổ biến</h2>
+                </div>
+
+                <ul class="tabs">
+                    <li class="active tab" data-tab-target="#all-genre">Tất cả thể loại</li>
+                    <li class="tab" data-tab-target="#business">Kinh doanh</li>
+                    <li class="tab" data-tab-target="#technology">Công nghệ</li>
+                    <li class="tab" data-tab-target="#romantic">Lãng mạn</li>
+                    <li class="tab" data-tab-target="#adventure">Phiêu lưu</li>
+                    <li class="tab" data-tab-target="#fictional">Hư cấu</li>
+                </ul>
+
+                <div class="tab-content">
+                    <div class="active" data-tab-content id="all-genre">
+                        <div class="row">
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item1.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Chụp ảnh chân dung</h3>
+                                        <span>Adam Silber</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item2.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Ngày xửa ngày xưa</h3>
+                                        <span>Klien Marry</span>
+                                        <div class="item-price">$ 35.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item3.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Mẹo cho lối sống đơn giản</h3>
+                                        <span>Bratt Smith</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item4.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Chỉ cần cảm nhận từ bên ngoài</h3>
+                                        <span>Nicole Wilson</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item5.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Giác ngộ bình yên</h3>
+                                        <span>Marmik Lama</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item6.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Chuyến đi tuyệt vời ở sa mạc</h3>
+                                        <span>Sanchit Howdy</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item7.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Cuộc sống giữa bọn cướp biển</h3>
+                                        <span>Armor Ramsey</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item8.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Cách đơn giản để sống yên bình</h3>
+                                        <span>Armor Ramsey</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div data-tab-content id="business">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item2.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Giác ngộ bình yên</h3>
+                                        <span>Marmik Lama</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item4.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Chuyến đi tuyệt vời ở sa mạc</h3>
+                                        <span>Sanchit Howdy</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item6.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Cuộc sống giữa bọn cướp biển</h3>
+                                        <span>Armor Ramsey</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item8.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Cách đơn giản để sống yên bình</h3>
+                                        <span>Armor Ramsey</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div data-tab-content id="technology">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item3.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Chụp ảnh chân dung</h3>
+                                        <span>Adam Silber</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item4.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Ngày xửa ngày xưa</h3>
+                                        <span>Klien Marry</span>
+                                        <div class="item-price">$ 35.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item5.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Mẹo cho lối sống đơn giản</h3>
+                                        <span>Bratt Smith</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item6.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Chỉ cần cảm nhận từ bên ngoài</h3>
+                                        <span>Nicole Wilson</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div data-tab-content id="romantic">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item7.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Giác ngộ bình yên</h3>
+                                        <span>Marmik Lama</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item8.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Cuộc sống giữa bọn cướp biển</h3>
+                                        <span>Armor Ramsey</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item3.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Chụp ảnh chân dung</h3>
+                                        <span>Adam Silber</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item2.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Ngày xửa ngày xưa</h3>
+                                        <span>Klien Marry</span>
+                                        <div class="item-price">$ 35.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div data-tab-content id="adventure">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item6.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Chỉ cần cảm nhận từ bên ngoài</h3>
+                                        <span>Nicole Wilson</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item5.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Giác ngộ bình yên</h3>
+                                        <span>Marmik Lama</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item4.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Mẹo cho lối sống đơn giản</h3>
+                                        <span>Bratt Smith</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item2.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Ngày xửa ngày xưa</h3>
+                                        <span>Klien Marry</span>
+                                        <div class="item-price">$ 35.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div data-tab-content id="fictional">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item3.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Chụp ảnh chân dung</h3>
+                                        <span>Adam Silber</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item7.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Cách đơn giản để sống yên bình</h3>
+                                        <span>Armor Ramsey</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item8.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Cuộc sống giữa bọn cướp biển</h3>
+                                        <span>Marmik Lama</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <figure class="product-style">
+                                        <img alt="Tranh" class="product-item" src="images/tab-item5.jpg">
+                                        <button class="add-to-cart" data-product-tile="add-to-cart"
+                                                type="button">Thêm vào giỏ hàng
+                                        </button>
+                                    </figure>
+                                    <figcaption>
+                                        <h3>Mẹo cho lối sống đơn giản</h3>
+                                        <span>Bratt Smith</span>
+                                        <div class="item-price">$ 40.00</div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="align-center pb-5 mb-5" id="quotation">
+    <div class="inner-content">
+        <h2 class="section-title divider">Câu nói trong ngày</h2>
+        <blockquote data-aos="fade-up">
+            <q>“Càng đọc nhiều, bạn sẽ biết càng nhiều điều. Càng học nhiều, bạn sẽ đi được nhiều nơi hơn.”</q>
+            <div class="author-name">Dr. Seuss</div>
+        </blockquote>
+    </div>
+</section>
+
+<section class="bookshelf pb-5 mb-5" id="special-offer">
+    <div class="section-header align-center">
+        <div class="title">
+            <span>Chớp lấy cơ hội của bạn</span>
+        </div>
+        <h2 class="section-title">Tranh đang có ưu đãi</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="inner-content">
+                <div class="product-list" data-aos="fade-up">
+                    <div class="grid product-grid">
+                        <div class="product-item">
+                            <figure class="product-style">
+                                <img alt="Tranh" class="product-item" src="images/product-item5.jpg">
+                                <button class="add-to-cart" data-product-tile="add-to-cart" type="button">Thêm vào
+                                    giỏ hàng
+                                </button>
+                            </figure>
+                            <figcaption>
+                                <h3>Cách sống đơn giản</h3>
+                                <span>Armor Ramsey</span>
+                                <div class="item-price">
+                                    <span class="prev-price">$ 50.00</span>$ 40.00
+                                </div>
+                            </figcaption>
+                        </div>
+
+                        <div class="product-item">
+                            <figure class="product-style">
+                                <img alt="Tranh" class="product-item" src="images/product-item6.jpg">
+                                <button class="add-to-cart" data-product-tile="add-to-cart" type="button">Thêm vào
+                                    giỏ hàng
+                                </button>
+                            </figure>
+                            <figcaption>
+                                <h3>Chuyến du lịch tuyệt vời ở sa mạc</h3>
+                                <span>Sanchit Howdy</span>
+                                <div class="item-price">
+                                    <span class="prev-price">$ 30.00</span>$ 38.00
+                                </div>
+                            </figcaption>
+                        </div>
+
+                        <div class="product-item">
+                            <figure class="product-style">
+                                <img alt="Tranh" class="product-item" src="images/product-item7.jpg">
+                                <button class="add-to-cart" data-product-tile="add-to-cart" type="button">Thêm vào
+                                    giỏ hàng
+                                </button>
+                            </figure>
+                            <figcaption>
+                                <h3>Vẻ đẹp của cô gái Scarlett</h3>
+                                <span>Arthur Doyle</span>
+                                <div class="item-price">
+                                    <span class="prev-price">$ 35.00</span>$ 45.00
+                                </div>
+                            </figcaption>
+                        </div>
+
+                        <div class="product-item">
+                            <figure class="product-style">
+                                <img alt="Tranh" class="product-item" src="images/product-item8.jpg">
+                                <button class="add-to-cart" data-product-tile="add-to-cart" type="button">Thêm vào
+                                    giỏ hàng
+                                </button>
+                            </figure>
+                            <figcaption>
+                                <h3>Ngày xửa ngày xưa</h3>
+                                <span>Klien Marry</span>
+                                <div class="item-price">
+                                    <span class="prev-price">$ 25.00</span>$ 35.00
+                                </div>
+                            </figcaption>
+                        </div>
+
+                        <div class="product-item">
+                            <figure class="product-style">
+                                <img alt="Tranh" class="product-item" src="images/product-item2.jpg">
+                                <button class="add-to-cart" data-product-tile="add-to-cart" type="button">Thêm vào
+                                    giỏ hàng
+                                </button>
+                            </figure>
+                            <figcaption>
+                                <h3>Cách sống đơn giản</h3>
+                                <span>Armor Ramsey</span>
+                                <div class="item-price">$ 40.00</div>
+                            </figcaption>
+                        </div>
+                    </div><!--grid-->
+                </div>
+            </div><!--inner-content-->
+        </div>
+    </div>
+</section>
+
+<section id="subscribe">
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-md-8">
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <div class="title-element">
+                            <h2 class="section-title divider">Đăng ký nhận bản tin của chúng tôi</h2>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+
+                        <div class="subscribe-content" data-aos="fade-up">
+                            <p>Hãy đăng ký để nhận những thông tin mới nhất từ chúng tôi, và nhận thông báo qua email.
+                                Chúng tôi sẽ gửi đến bạn những tin tức và chương trình khuyến mãi đặc biệt.</p>
+                            <form id="form">
+                                <input name="email" placeholder="Nhập địa chỉ email của bạn tại đây" type="text">
+                                <button class="btn-subscribe">
+                                    <span>Gửi</span>
+                                    <i class="icon icon-send"></i>
+                                </button>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<footer class=" pt-5 pb-3" id="footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="footer-item">
+                    <div class="company-brand">
+                        <img alt="logo" class="footer-logo mb-3" src="images/main-logo.png">
+                        <p>Chúng tôi cung cấp những sản phẩm tốt nhất để nâng cao trải nghiệm của bạn. Đội ngũ của chúng
+                            tôi cam kết mang đến dịch vụ và chất lượng hàng đầu.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="footer-menu">
+                    <h5>Về Chúng Tôi</h5>
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="#">Tầm Nhìn</a></li>
+                        <li class="menu-item"><a href="#">Bài Viết</a></li>
+                        <li class="menu-item"><a href="#">Cơ Hội Nghề Nghiệp</a></li>
+                        <li class="menu-item"><a href="#">Điều Khoản Dịch Vụ</a></li>
+                        <li class="menu-item"><a href="#">Từ Thiện</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="footer-menu">
+                    <h5>Khám Phá</h5>
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="#">Trang Chủ</a></li>
+                        <li class="menu-item"><a href="#">Sách</a></li>
+                        <li class="menu-item"><a href="#">Tác Giả</a></li>
+                        <li class="menu-item"><a href="#">Chủ Đề</a></li>
+                        <li class="menu-item"><a href="#">Tìm Kiếm Nâng Cao</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="footer-menu">
+                    <h5>Tài Khoản Của Tôi</h5>
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="#">Đăng Nhập</a></li>
+                        <li class="menu-item"><a href="#">Xem Giỏ Hàng</a></li>
+                        <li class="menu-item"><a href="#">Danh Sách Mong Muốn</a></li>
+                        <li class="menu-item"><a href="#">Theo Dõi Đơn Hàng</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="footer-menu">
+                    <h5>Trợ Giúp</h5>
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="#">Trung Tâm Trợ Giúp</a></li>
+                        <li class="menu-item"><a href="#">Báo Cáo Vấn Đề</a></li>
+                        <li class="menu-item"><a href="#">Đề Xuất Chỉnh Sửa</a></li>
+                        <li class="menu-item"><a href="#">Liên Hệ Với Chúng Tôi</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- / row -->
+    </div>
+</footer>
+
+
+<div id="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="copyright">
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <p>&copy; 2024 Solana UDPM - 11</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="social-links align-right">
+                                <ul>
+                                    <li>
+                                        <a><i class="icon icon-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a><i class="icon icon-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a><i class="icon icon-youtube-play"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!--grid-->
+
+            </div><!--footer-bottom-content-->
+        </div>
+    </div>
+</div>
+
+<script th:src="@{/js/jquery-1.11.0.min.js}"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script th:src="@{/js/plugins.js}"></script>
+<script th:src="@{/js/script.js}"></script>
+
+</body>
+
+</html>
