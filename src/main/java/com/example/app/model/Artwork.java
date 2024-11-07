@@ -50,6 +50,9 @@ public class Artwork {
     @JoinColumn(name = "creator_id", nullable = false)
     private User creator;
 
+    @ManyToOne
+    @JoinColumn(name = "category_id", nullable = false)
+    private Category category;
     @Column(name = "creation_date", nullable = false, updatable = false)
     @Temporal(TemporalType.TIMESTAMP)
     private Date creationDate;
